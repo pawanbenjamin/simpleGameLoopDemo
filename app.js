@@ -5,8 +5,8 @@ grid.classList.add('grid')
 
 board.appendChild(grid)
 
-for (let index = 0; index < 20; index++) {
-  for (let kindex = 0; kindex < 20; kindex++) {
+for (let i = 0; i < 20; i++) {
+  for (let j = 0; j < 20; j++) {
     const cell = document.createElement('div')
     cell.classList.add('cell')
     grid.appendChild(cell)
