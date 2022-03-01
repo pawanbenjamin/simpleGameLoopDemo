@@ -6,7 +6,7 @@ let gameState = {
   gameStatus: 'playing',
   // Example of Object Method
   getRemaining: function () {
-    return (this.goal = this.currentScore)
+    return this.goal - this.currentScore
   },
 }
 
